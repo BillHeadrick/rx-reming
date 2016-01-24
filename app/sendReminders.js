@@ -7,12 +7,11 @@ function master() {
     var twilio = require('twilio');
     var client = new twilio.RestClient('AC3e46165d0c7eaf567cf553ebf7fa563b', '4b011dadd9dcd4f278da18347242161c');
 
-    mongoose.connect('process.env.MONGOLAB_URI', function (error) {
-        if (error) {
-            console.error(error)
-        }
+    mongoose.connect(process.env.MONGOLAB_URI, function(error){
+        if(error){console.error(error)}
         else console.log('mongo connected');
-    });
+    });     // connect to mongoDB database
+
     var date = new Date();
     var Reminder = require('./models/Reminders.js');
 
