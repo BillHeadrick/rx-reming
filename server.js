@@ -12,8 +12,11 @@ var bodyParser = require('body-parser');    // pull information from HTML POST (
 var methodOverride = require('method-override'); // simulate DELETE and PUT (express4)
 
 // configuration =================
-var database = require('./config/database');
-mongoose.connect(database.url);     // connect to mongoDB database
+//var database = require('./config/database');
+mongoose.connect(process.env.MONGOLAB_URI, function(error){
+    if(error){console.error(error)}
+    else console.log('mongo connected');
+});     // connect to mongoDB database
 
 app.use(express.static(__dirname + '/public'));                 // set the static files location /public/img will be /img for users
 app.use(morgan('dev'));                                         // log every request to the console
