@@ -78,8 +78,8 @@ module.exports = function(app) {
             medication: req.body.prescription,
             alarms: dateArray
         }, function(err, reminders){
-            if(err) {console.log("error")}
-            else {console.log(reminders)}
+            if(err) {res.send("error creating reminder" + err)}
+            else {res.send("success creating reminder "+ reminders)}
         });
 
         res.send("Post recieved");
