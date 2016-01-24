@@ -1,0 +1,14 @@
+{
+  "name": "prescription-reminder",
+  "version": "0.0.0",
+  "description": "An application that notifies users via sms when it is time to take their medicine.",
+  "main": "server.js",
+  "author": "William Headrick",
+  "dependencies": {
+    "express": "~4.7.2",
+    "mongoose": "~3.6.2",
+    "morgan": "~1.2.2",
+    "body-parser": "~1.5.2",
+    "method-override": "~2.1.2"
+  }
+}

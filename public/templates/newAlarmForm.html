@@ -1,0 +1,70 @@
+<form name="newAlarmForm" ng-submit="newAlarm()">
+    <div class="row">
+        <h3 class="text-center">Contact Information</h3>
+        <div class="form-group col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName" ng-model="firstName" class="form-control" required>
+        </div>
+        <div class="form-group col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" ng-model="lastName" class="form-control" id="lastName" required>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <label for="phone">Phone Number to Recieve Reminders</label>
+            <input type="tel" class="form-control" id="phone" ng-model="phone" name="phone" required>
+        </div>
+        <div class="form-group col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" ng-model="email" required>
+        </div>
+    </div>
+    <div class="row">
+        <h3 class="text-center">Prescription Information</h3>
+        <div class="form-group col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <label for="medication">Medication</label>
+            <input type="text" class="form-control" id="Medication" ng-model="medication" required>
+        </div>
+        <div class="form-group col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <label for="takeTime">What time do you take {{medication}}?</label>
+            <input type="time" class="form-control" id="takeTime" ng-model="time" required>
+        </div>
+        <div class="form-group col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <label for="duration">How many days is your prescription for?</label>
+            <input type="number" min="1" max="366" class="form-control" id="duration" ng-model="duration" required>
+        </div>
+    </div>
+    <div class="row">
+        <h3 class="text-center">Select all days you take {{medication}}</h3>
+        <label class="checkbox-inline">
+            <input type="checkbox" id="sunday" value="sunday" ng-model="sunday"> Sunday
+        </label>
+        <label class="checkbox-inline">
+            <input type="checkbox" id="monday" value="monday" ng-model="monday"> Monday
+        </label>
+        <label class="checkbox-inline">
+            <input type="checkbox" id="tuesday" value="tuesday" ng-model="tuesday"> Tuesday
+        </label>
+        <label class="checkbox-inline">
+            <input type="checkbox" id="wednesday" value="wednesday" ng-model="wednesday"> Wednesday
+        </label>
+        <label class="checkbox-inline">
+            <input type="checkbox" id="thursday" value="thursday" ng-model="thursday"> Thursday
+        </label>
+        <label class="checkbox-inline">
+            <input type="checkbox" id="friday" value="friday" ng-model="friday"> Friday
+        </label>
+        <label class="checkbox-inline">
+            <input type="checkbox" id="saturday" value="saturday" ng-model="saturday"> Saturday
+        </label>
+    </div>
+    </br>
+    <div class="row">
+        <div class="col-xs-2 col-sm-3 col-md-4 col-lg-4"></div>
+        <div class="col-xs-8 col-sm-6 col-md-4 col-lg-4">
+            <button type="submit" class="btn btn-primary btn-block">Set RX Reminder!</button>
+        </div>
+        <div class="col-xs-2 col-sm-3 col-md-4 col-lg-4"></div>
+    </div>
+</form>
