@@ -74,6 +74,13 @@ app.controller('NewScheduleCtrl', [
                 prescription: $scope.prescription
             });
             console.log("about to send post");
-            $http.post('/api/rx-reminder', data);
+            $http.post('/api/rx-reminder', data)
+                .success(function(data,status,headers,config){
+                    console.log("Post was success");
+                    console.log(data);
+                }).error(function(data,status,headers,config){
+                console.log("Post was error");
+                console.log(data);
+            });
         };
     }]);
