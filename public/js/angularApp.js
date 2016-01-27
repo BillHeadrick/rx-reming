@@ -29,7 +29,7 @@ app.config([
                 controller: 'PostsCtrl'
             });
         //end of to be changed
-        $urlRouterProvider.otherwise('home');
+        $urlRouterProvider.otherwise('newAlarm');
     }]);
 
 //PROVIDERS (FACTORY, SERVICE, etc.)
