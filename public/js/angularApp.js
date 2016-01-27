@@ -16,8 +16,8 @@ app.config([
     function($stateProvider, $urlRouterProvider) {
 
         $stateProvider
-            .state('home', {
-                url: '/home',
+            .state('newAlarm', {
+                url: '/rx-remind',
                 templateUrl: '/templates/newAlarmForm.html',
                 controller: 'NewScheduleCtrl'
             })
