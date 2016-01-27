@@ -17,7 +17,7 @@ app.config([
 
         $stateProvider
             .state('newAlarm', {
-                url: '/rx-remind',
+                url: '/newAlarm',
                 templateUrl: '/templates/newAlarmForm.html',
                 controller: 'NewScheduleCtrl'
             })
