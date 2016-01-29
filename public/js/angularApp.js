@@ -16,20 +16,30 @@ app.config([
     function($stateProvider, $urlRouterProvider) {
 
         $stateProvider
-            .state('newAlarm', {
-                url: '/newAlarm',
-                templateUrl: '/templates/newAlarmForm.html',
+            .state('rxRemind', {
+                url: '/rxReminder',
+                views: {
+                    '': {templateUrl: '/templates/newAlarmPage.html'},
+                    'header@rxRemind':{templateUrl: '/templates/universal/header.html'},
+                    'newAlarmForm@rxRemind':{templateUrl: '/templates/newAlarmForm.html'}
+                },
                 controller: 'NewScheduleCtrl'
             })
 
-            //to be changed
-            .state('posts', {
-                url: '/posts/{id}',
-                templateUrl: '/templates/posts.html',
-                controller: 'PostsCtrl'
-            });
+            .state('home', {
+            url: '/home',
+            views: {
+                '': {templateUrl: '/templates/home/homePage.html'},
+                'header@home':{templateUrl: '/templates/universal/header.html'},
+                'topPanel@home':{templateUrl: '/templates/home/topPanel.html'},
+                'about@home':{templateUrl: '/templates/home/about.html'},
+                'solutions@home':{templateUrl: '/templates/home/solutions.html'},
+                'blog@home':{templateUrl: '/templates/home/blog.html'}
+            },
+            controller: ''
+        });
         //end of to be changed
-        $urlRouterProvider.otherwise('newAlarm');
+        $urlRouterProvider.otherwise('home');
     }]);
 
 //PROVIDERS (FACTORY, SERVICE, etc.)
@@ -39,7 +49,9 @@ app.config([
 app.controller('NewScheduleCtrl', [
     '$scope',
     '$http',
+    '$location',
     function($scope, $http){
+
         //initialize checkboxes to false
         $scope.sunday = false;
         $scope.monday= false;

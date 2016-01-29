@@ -1,0 +1,22 @@
+<nav class="navbar navbar-drdr navbar-fixed-top">
+    <div class="container-fluid">
+       <!-- home tab -->
+        <div class="navbar-header">
+            <a class="navbar-brand" ui-sref="home">
+                <p>DrDr</p>
+                <!--<img alt="Brand" src="...">-->
+            </a>
+        </div>
+        <!--Prescription Text Reminder -->
+        <div class="navbar-header">
+            <ul class="nav navbar-nav">
+                <li class="nav-drdr" ng-class="{ active: isActive('/rxRemind')}">
+                    <a class="" ui-sref="rxRemind">
+                        <p class="nav-drdr">RX Reminder</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>

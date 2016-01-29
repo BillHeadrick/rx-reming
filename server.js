@@ -19,12 +19,12 @@ mongoose.connect(process.env.MONGOLAB_URI, function(error){
     else console.log('mongo connected');
 });     // connect to mongoDB database
 
-/* LOCAL HOST
-mongoose.connect('mongodb://william:howard@ds049935.mongolab.com:49935/rx-remind', function(error){
+// LOCAL HOST
+/*mongoose.connect('mongodb://william:howard@ds049935.mongolab.com:49935/rx-remind', function(error){
     if(error){console.error(error)}
     else console.log('mongo connected');
-});
-*/
+});*/
+
 app.use(express.static(__dirname + '/public'));                 // set the static files location /public/img will be /img for users
 app.use(morgan('dev'));                                         // log every request to the console
 app.use(bodyParser.urlencoded({'extended':'true'}));            // parse application/x-www-form-urlencoded

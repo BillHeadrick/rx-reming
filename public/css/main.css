@@ -1,0 +1,36 @@
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url('/img/headerTest.jpg');
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.15em 0.15em 0.15em;
+}
+.panel, .thumbnail{
+    border-color: rgb(119,186,155);
+}
+.navbar-drdr{
+    /*background-color: rgb(240,91,71);*/
+    background-color: rgb(59,89,152);
+    opacity: .95;
+}
+.nav-drdr{
+    color: rgb(119,186,155);
+    font-size: 1.25em;
+}
+.topic{
+    color:rgb(182,167,84);
+}
+h4{
+    color: rgb(41,62,106);
+}
+.appTitle{
+    color:rgb(59,89,152);
+}
+.blog-title{
+    color:rgb(59,89,152);
+}
+.btn-drdr{
+    background-color: rgb(119,186,155);
+}

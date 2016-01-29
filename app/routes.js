@@ -79,19 +79,6 @@ module.exports = function(app) {
             alarms: dateArray
         });
         requestedReminder.save();
-/*
-        Reminder.create({
-            firstName: req.body.firstName,
-            lastName: req.body.lastName,
-            phone: req.body.phone,
-            email: req.body.email,
-            medication: req.body.prescription,
-            alarms: dateArray
-        }, function(err, reminders){
-            if(err) {console.log("error")}
-            else {console.log("success")}
-        });
-*/
         res.send("Post recieved");
     });
 

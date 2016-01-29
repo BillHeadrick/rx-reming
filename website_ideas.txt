@@ -1,0 +1,19 @@
+DrDr Site Plan:
+
+Style:
+	Header:
+	Footer:
+	Layout: 3 column? 2 column? 
+	Color Scheme:
+	Fav Icon:
+
+Pages:
+	Home: ""
+	Prescription Remind:
+	Blog Posts:
+	About?
+	
+http://www.dtelepathy.com/blog/inspiration/beautiful-color-palettes-for-your-next-web-project
+-chrome sports
+-scroll labs
+-visually columbia
