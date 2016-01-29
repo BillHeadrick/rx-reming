@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="177a78af-41f2-47b5-9c8d-99e786e88352" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/home/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/home/blog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/home/homePage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/home/solutions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/home/topPanel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/universal/footer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.js" afterPath="$PROJECT_DIR$/app/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/angularApp.js" afterPath="$PROJECT_DIR$/public/js/angularApp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/newAlarmForm.html" afterPath="$PROJECT_DIR$/public/templates/newAlarmForm.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/home/blog.html" afterPath="$PROJECT_DIR$/public/templates/home/blog.html" />
     </list>
     <ignored path="rx.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="blog.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/templates/home/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.035789475">
+              <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -64,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11776447">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
               </folding>
@@ -177,7 +167,6 @@
         <option value="$PROJECT_DIR$/public/templates/home/about.html" />
         <option value="$PROJECT_DIR$/public/templates/home/homePage.html" />
         <option value="$PROJECT_DIR$/public/templates/universal/footer.html" />
-        <option value="$PROJECT_DIR$/public/templates/home/blog.html" />
         <option value="$PROJECT_DIR$/public/templates/home/solutions.html" />
         <option value="$PROJECT_DIR$/public/templates/newAlarmPage.html" />
         <option value="$PROJECT_DIR$/public/templates/newAlarmForm.html" />
@@ -186,6 +175,7 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/css/main.css" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/public/templates/home/blog.html" />
       </list>
     </option>
   </component>
@@ -816,14 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/home/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/templates/home/homePage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.5384617">
@@ -890,11 +872,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11776447">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/home/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.035789475">
+          <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
